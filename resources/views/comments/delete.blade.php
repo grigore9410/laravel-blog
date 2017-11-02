@@ -16,7 +16,7 @@
                 {{ Form::submit('YES DELETE THIS COMMENT', ['class' => 'btn btn-lg btn-block btn-danger']) }}
             {{Form::close()}}
             {{--{{ Form::button('Cancel', array('class' => 'btn btn-lg btn-block btn-primary')) }}--}}
-            <button onclick="location.href='/posts'" class="btn btn-lg btn-block btn-primary">Back</button>
+            <button onclick="location.href='/posts'" class="btn btn-lg btn-block btn-primary">Cancel</button>
 
 
         </div>
